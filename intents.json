@@ -1,0 +1,28 @@
+{"intents":[
+    {"tag":"greeting",
+     "patterns":["Hola", "Como estas", "Como andas", "Que tal", "Buenas", "Buen dia", "Buenos dias", "Buenas tardes", "Buenas noches"],
+     "response":["Hola, gracias por preguntar!", "Me alegro de verte", "Hola, en que puedo ayudarte?"],
+     "context":[""]
+    },
+    {"tag":"goodbye",
+     "patterns":["Adios","Bye","Nos vemos","Chau","Hasta luego","Hasta mañana","Te veo luego"],
+     "response":["Adios!","Que tengas un lindo dia!","Nos vemos!","Gracias por escribir, un saludo!"],
+     "context":[""]
+    },
+    {"tag":"thanks",
+     "patterns":["Gracias", "Muchas gracias","Te agradezco", "Gracias por ayudarme", "Muchisimas gracias"],
+     "response":["Un placer ayudar!", "De nada, fue un placer!", "Feliz de poder ayudarte!", "No tienes que agradecerme, es un placer!"],
+     "context":[""]
+    },
+    {"tag":"noanswer",
+     "patterns":[],
+     "response":["Disculpame no te entendi, podrias repetirlo?", "Podrias darme mas informacion sobre eso?", "No estoy seguro si entendi lo que me estas diciendo"],
+     "context":[""]
+    },
+    {"tag":"botquestions",
+     "patterns":["como te llamas?", "quien sos?", "cual es tu nombre?"],
+     "response":["Yo soy BotPy, un placer conocerte!", "Mi nombre es BotPy","Me llamo BotPy"],
+     "context":[""]
+    }
+    ]
+}
